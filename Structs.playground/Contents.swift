@@ -42,7 +42,7 @@ class PersonReference {
     var firstName: String
     var lastName: String
     var fullName: String {
-        return "\(firstName) \(lastName)"
+        return "\(firstName) \(lastName)" 
     }
 
     init(firstName: String, lastName: String) {
